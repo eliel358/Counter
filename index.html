@@ -3,21 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
     <title>Document</title>
-    
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="conteiner">
-        <div class="counter">
-            <input class="counter" value="0" id="counter"  type="number">
-        </div>
+        <input class="counter" type="number" value="0" id="counter">
         <div class="buttons">
-            <button onclick="increase()"><p>INCREASE</p></button>
-            <button onclick="decrease()"><p>DECREASE</p></button>
-            <button onclick="reset()"><p>RESET</p></button>
+            <button onclick="increase()">+</button>
+            <button onclick="reset()">0</button>
+            <button onclick='decrease()'>-</button>
         </div>
     </div>
 </body>
-<script src="script.js"></script>
 </html>
